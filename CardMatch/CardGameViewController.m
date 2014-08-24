@@ -45,12 +45,6 @@
             [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
             [sender setTitle: @"No Card" forState:UIControlStateNormal];
         }
-        /*Card *card = [self.deck drawRandomCard];
-        NSLog(@"%@", card.content);
-        UIImage *cardImage = [UIImage imageNamed:@"blankCard"];
-        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
-        [sender setTitle: @"No More Card" forState:UIControlStateNormal];
-         */
     }
     self.flipCount++;
 }
